@@ -6,6 +6,11 @@ terraform {
       version = ">= 6.0"
     }
   }
+
+  # backend "local" {
+  #   path = "terraform.tfstate"
+  # }
+
   backend "s3" {
     bucket         = "bucket-name"
     key            = "explore_aws_services/2-manage-usage-cost/terraform.tfstate"
