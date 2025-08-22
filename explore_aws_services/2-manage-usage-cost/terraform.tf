@@ -6,4 +6,10 @@ terraform {
       version = ">= 6.0"
     }
   }
+  backend "s3" {
+    bucket         = "bucket-name"
+    key            = "explore_aws_services/2-manage-usage-cost/terraform.tfstate"
+    region         = "us-west-1"
+    dynamodb_table = "terraform-locks"
+  }
 }
