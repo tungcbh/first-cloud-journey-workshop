@@ -36,8 +36,9 @@ This section of the workshop focuses on exploring tools and strategies to manage
     terraform apply -var-file="local.tfvars"
     ```
 
-
-## Resources
-
-- [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/)
-- [AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets/)
+## Step 3: Destroy resources
+  * Open terminal or command shell.
+  
+    ```bash
+    terraform destroy -auto-approve
+    ```

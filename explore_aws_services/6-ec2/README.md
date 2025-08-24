@@ -1,8 +1,8 @@
 # Manage Usage and Cost in AWS
 
-This section of the workshop focuses on using Identity and Access Management (IAM) in AWS.
+This section of the workshop explore AWS EC2 and its features.
 
-[Link to workshop](https://000002.awsstudygroup.com/)
+[Link to workshop](https://000004.awsstudygroup.com/)
 
 
 ## Step 1: Config backend for store state
