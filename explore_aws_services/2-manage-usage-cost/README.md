@@ -6,6 +6,7 @@ This section of the workshop focuses on exploring tools and strategies to manage
 
 
 ## Step 1: Config backend for store state
+  You can use local backend without create S3 bucket and DynamoDB table
 1.  **Add `backend.tfvars`**:
 
     ```hcl
