@@ -1,0 +1,8 @@
+# Xóa hết quyền kế thừa
+icacls ec2_ssh_key.pem /inheritance:r
+
+# Chỉ cho user hiện tại được đọc
+icacls ec2_ssh_key.pem /grant:r "$($env:USERNAME):(R)"
+
+# Xóa quyền của mọi nhóm khác
+icacls ec2_ssh_key.pem /remove "NT AUTHORITY\Authenticated Users" "BUILTIN\Users" "Everyone"
